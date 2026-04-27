@@ -1,0 +1,108 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up IR remote device",
+        "data": {
+          "device_type": "Device",
+          "infrared_entity_id": "Infrared emitter"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "This device profile is already configured with this infrared emitter.",
+      "no_emitters": "No infrared emitter entities are available."
+    }
+  },
+  "selector": {
+    "device_type": {
+      "options": {
+        "samsung_tv": "Samsung TV",
+        "pioneer_receiver": "Pioneer receiver"
+      }
+    }
+  },
+  "entity": {
+    "button": {
+      "power_on": {
+        "name": "Power on"
+      },
+      "power_off": {
+        "name": "Power off"
+      },
+      "power_toggle": {
+        "name": "Power"
+      },
+      "mute_toggle": {
+        "name": "Mute"
+      },
+      "mute_on": {
+        "name": "Mute on"
+      },
+      "mute_off": {
+        "name": "Mute off"
+      },
+      "volume_up": {
+        "name": "Volume up"
+      },
+      "volume_down": {
+        "name": "Volume down"
+      },
+      "tuner": {
+        "name": "Tuner"
+      },
+      "cd": {
+        "name": "CD"
+      },
+      "tv": {
+        "name": "TV"
+      },
+      "dvd": {
+        "name": "DVD"
+      },
+      "sat_cbl": {
+        "name": "SAT/CBL"
+      },
+      "game": {
+        "name": "Game"
+      },
+      "bd": {
+        "name": "BD"
+      },
+      "ipod_usb": {
+        "name": "iPod/USB"
+      },
+      "station_1": {
+        "name": "Station 1"
+      },
+      "station_2": {
+        "name": "Station 2"
+      },
+      "station_3": {
+        "name": "Station 3"
+      },
+      "station_4": {
+        "name": "Station 4"
+      },
+      "station_5": {
+        "name": "Station 5"
+      },
+      "station_6": {
+        "name": "Station 6"
+      },
+      "station_7": {
+        "name": "Station 7"
+      },
+      "station_8": {
+        "name": "Station 8"
+      },
+      "station_9": {
+        "name": "Station 9"
+      },
+      "station_10": {
+        "name": "Station 10"
+      }
+    }
+  }
+}
+
